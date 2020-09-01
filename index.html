@@ -6,46 +6,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <title>Document</title>
+
+  <!-- => EXTERNAL STYLES -->
+  <!-- "SEPARATION OF CONCERNS" -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <!-- SEMANTIC HTML -->
 
 <body>
   <!-- VISIBLE -->
-  <header>
-    <center>
+
+  <!-- X IN PAGE STYLING -->
+  <!-- <style>
+
+    .text-green {
+      color: green;
+    }
+
+  </style> -->
+
+  <!-- X INLINE -->
+  <header class="text-green bg-orange">
+    <div class="pull-left">
+      Welcome!
+    </div>
+    <div class="pull-right">
+      Call me!
+    </div>
+    <!-- BREAKS THE SEPARATION OF CONCERNS -->
+    <div class="text-center">
       <h1>Naruto</h1>
       <i>Hokage Village</i>
       <br>
       <br>
       jadlfkja slfjlkadjfkj askfjsd
-    </center>
+    </div>
     <hr>
   </header>
 
   <main>
     <section>
-      <h1>Skills</h1>
+      <h1 class="underline text-lg">Skills</h1>
       <ul>
         <li>
-          <div>
-            Flight
-          </div>
-          <div>
-            (Not with wings)
-          </div>
+          <div>Flight</div>
+          <div>(Not with wings)</div>
         </li>
         <li>Laser Eyes</li>
       </ul>
     </section>
 
     <section>
-      <h1>Work Experience</h1>
+      <h1 class="underline text-lg">Work Experience</h1>
     </section>
 
     <section>
-      <h1>Publications</h1>
+      <h1 class="underline text-lg">Publications</h1>
     </section>
 
     <section>
